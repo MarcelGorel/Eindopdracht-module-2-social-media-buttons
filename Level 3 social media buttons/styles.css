@@ -1,0 +1,113 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 100vh;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav-item--p {
+  position: absolute;
+  right: -9999px;
+}
+
+.fa {
+  width: 50px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 250ms ease-out;
+  transition: 250ms ease-out;
+}
+
+.fa:hover {
+  width: 210px;
+  text-align: left;
+}
+
+.fa-laptop-code {
+  background: #e17b77;
+  color: white;
+}
+
+.fa-laptop-code:hover::after {
+  content: "Check my blog";
+  text-decoration: underline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 10px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-facebook:hover::after {
+  content: "Like my Facebook page";
+  text-decoration: underline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 10px;
+}
+
+.fa-github {
+  background: #333;
+  color: white;
+}
+
+.fa-github:hover::after {
+  content: "See projects on Github";
+  text-decoration: underline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 10px;
+}
+
+.fa-twitter {
+  background: #00aced;
+  color: white;
+}
+
+.fa-twitter:hover::after {
+  content: "Follow me on Twitter";
+  text-decoration: underline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 10px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-linkedin:hover::after {
+  content: "Connect on Linkedin";
+  text-decoration: underline;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
